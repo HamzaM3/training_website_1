@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.light {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
+}
+
+#section1 {
+    padding-top: 80px;
+}
+
+.light h1 {
+    text-align: center;
+    font-size: 40px;
+    width:340px;
+    margin: auto;
+    /* Problem with margin top*/
+    margin-bottom: 1em;
+    font-weight: normal;
+}
+
+#quote1 {
+    background: transparent url("img/big_warehouse.jpg") no-repeat bottom left;
+    background-size: 100%;
+    width: 650px;
+    height: 225px;
+    margin: auto;
+    padding-top: 100px;
+    padding: 150px calc((650px - 410px)/2) 0 calc((650px - 410px)/2);
+    display: flex;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+#quote1 > * {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(175, 175, 175);
+    margin: 5px;
+}
+
+#quote1 > .left {
+    background-image: url("img/woman.jpg");
+    background-size: 100%;
+}
+
+#quote1 > .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 25px;
+}
+
+q:before, q:after{ content: "";}
+
+q, h4 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.read-more {
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-size: 8px;
+    padding: 5px 15px;
+    margin-top: 15px;
+}
