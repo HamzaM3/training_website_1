@@ -1,23 +1,20 @@
 #section5 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    vertical-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 100px;
     background-color: white;
+    gap:100px;
 }
 
 #section5 .right {
-    width: 500px;
-    height: 500px;
-    
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    vertical-align: center;
-    margin-left: 100px
+
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 #section5 h3 {
@@ -26,6 +23,8 @@
 
 #section5 .left {
     background: url("/img/world_map.png") no-repeat center center;
-    width:600px;
+
     height:400px;
+    flex-grow: 1;
+    flex-basis: 0;
 }

@@ -1,6 +1,6 @@
 #section4 {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 25px;
 }
 
 #section4 h4 {
@@ -8,17 +8,15 @@
 }
 
 #gallery {
-    display: flex;
-    flex-direction: column;
-}
-
-#gallery .row {
-    display: flex;
+    width:100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0;
 }
 
 #gallery img {
-    width: 25%;
+    display: block;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    width:100%;
 }
