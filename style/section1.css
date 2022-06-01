@@ -1,0 +1,32 @@
+#construction-machinery {
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+#construction-machinery > .left {
+    width:800px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#construction-machinery > .left > h2 {
+    width: 400px;
+}
+
+#construction-machinery > .left > q {
+    width: 400px;
+}
+
+#construction-machinery > .left > p {
+    margin-top: 50px;
+}
+
+#construction-machinery > .right {
+    width: 400px;
+    background: transparent url("/img/thanks_yandex.webp") no-repeat center center;
+    background-size: 100%;
+}
