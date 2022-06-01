@@ -1,0 +1,45 @@
+#section2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#section2 > p {
+    width:800px;
+}
+
+#building-items {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#building-items > .row  {
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+
+#building-items > .row > .building-square {
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#building-items > .row > .building-square > img {
+    width: 100px;
+    display: block;
+    margin: 30px;
+}
+
+#building-items > .row > .building-square > h3 {
+    margin-bottom: 20px;
+    width: 200px;
+}
