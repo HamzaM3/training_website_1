@@ -1,0 +1,38 @@
+#section3 {
+    padding: 100px 70px;
+
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 300px 300px;
+    grid-gap: 30px 100px;
+    justify-content: center;
+}
+
+#section3 > :nth-child(1), #section3 > :nth-child(2) {
+    grid-row: 1 / span 2; 
+}
+
+#section3 > :not(:nth-child(2)) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section3 > :nth-child(2) {
+    object-fit: cover;
+    background: url("../img/big-caterpillar.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+#section3 img {
+    width: 100px;
+}
+
+#section3 h4 {
+    font-size: 20px;
+    margin:10px;
+}
+
+
+

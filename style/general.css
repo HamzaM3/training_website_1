@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.light {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.dark {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.light h1 {
+    text-align: center;
+    font-size: 80px;
+    width: 700px;
+    margin: auto;
+    /* Problem with margin top*/
+    margin-bottom: 1em;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight:700;
+    line-height: 1.2;
+    margin-bottom:20px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+q, h4 {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 1.6;
+}
