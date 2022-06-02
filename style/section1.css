@@ -27,6 +27,6 @@
 
 #construction-machinery > .right {
     width: 400px;
-    background: transparent url("/img/thanks_yandex.webp") no-repeat center center;
+    background: transparent url("../img/thanks_yandex.webp") no-repeat center center;
     background-size: 100%;
 }

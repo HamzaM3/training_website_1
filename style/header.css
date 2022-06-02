@@ -4,7 +4,7 @@
 }
 
 #quote1 {
-    background: transparent url("/img/big_warehouse.jpg") no-repeat bottom left;
+    background: transparent url("../img/big_warehouse.jpg") no-repeat bottom left;
     background-size: 100%;
     width: 1200px;
     height: 450px;
@@ -23,7 +23,7 @@
 }
 
 #quote1 > .left {
-    background-image: url("/img/woman.jpg");
+    background-image: url("../img/woman.jpg");
     background-size: 100%;
 }
 

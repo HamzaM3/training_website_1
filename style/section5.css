@@ -22,7 +22,7 @@
 }
 
 #section5 .left {
-    background: url("/img/world_map.png") no-repeat center center;
+    background: url("../img/world_map.png") no-repeat center center;
 
     height:400px;
     flex-grow: 1;
